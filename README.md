@@ -43,6 +43,28 @@ Develop
 
             => isAuthenticated.js
 
+        => config.json
+
+        => passport.js
+
+    => models
+
+        => index.js
+
+        => user.js
+
+    => public
+
+    => routes
+
+        => api-routes.js
+
+        => html-routes.js
+
+    => package.json
+
+    => server.js
+
 ## Contributing
 
 :octocat: [Doug Kvamme](https://github.com/kvadou)
