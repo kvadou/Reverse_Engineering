@@ -37,11 +37,11 @@ SO THAT I don't need to worry about using a website
 
 Develop
 
-=> config
+    => config
 
-    => middleware
+        => middleware
 
-        => isAuthenticated.js
+            => isAuthenticated.js
 
 ## Contributing
 
