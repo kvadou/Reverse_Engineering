@@ -35,10 +35,15 @@ SO THAT I don't need to worry about using a website
 
 ## Explaination
 
-CONFIG
-MIDDLEWARE
-isAuthenticated.js {restricts routes that user is allowed to visit if they are not logged in. if user is logged in, it continues with request};
-}
+├── Develop
+| |── config
+│ | |── middleware
+│ | | ├── isAuthenticated.js {restricts routes that user is allowed to visit if they are not logged in. if user is logged in, it continues with request}
+│ | ├── config.json
+│ | ├── passport.js
+│ |── models
+│ | ├── index.js
+│ | ├── user.js
 
 ## Contributing
 
