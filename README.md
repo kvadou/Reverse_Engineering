@@ -36,12 +36,9 @@ SO THAT I don't need to worry about using a website
 ## Explaination
 
 Develop
-
--> config
-
-->-> middleware
-
-->->-> isAuthenticated.js
+=> config
+=>=> middleware
+=>=>=> isAuthenticated.js
 
 ## Contributing
 
