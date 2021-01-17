@@ -39,9 +39,9 @@ Develop
 
 => config
 
-=>=> middleware
+    => middleware
 
-=>=>=> isAuthenticated.js
+        => isAuthenticated.js
 
 ## Contributing
 
