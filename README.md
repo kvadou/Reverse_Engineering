@@ -41,29 +41,29 @@ Develop
 
         => middleware
 
-            => isAuthenticated.js
+            => isAuthenticated.js {This helps us restrict routes a user is allowed to visit if they are not logged in}
 
-        => config.json
+        => config.json {This allows us to connect to the database and server with our MySQL login credentials}
 
-        => passport.js
+        => passport.js {JavaScript logic that tells passport we want to login with a email address and password}
 
     => models
 
-        => index.js
+        => index.js {Connects us to the database and imports users log in data}
 
-        => user.js
+        => user.js {Uses bcryptjs for password encryption, makes the database more secure.  Forces user the enter a valid email address, and does not allow the password field to be left empty}
 
     => public
 
     => routes
 
-        => api-routes.js
+        => api-routes.js {Contains routes for signing up a user, logging out a user and getting users specific data to be displayed client side}
 
-        => html-routes.js
+        => html-routes.js {Routes that check whether user is signed in, whether user already has account etc and sends them tio the member page.  If user is not signed in, they are routed to the sign-up page}
 
-    => package.json
+    => package.json {Contains all package info, node modules used, version info}
 
-    => server.js
+    => server.js {Requires our npm packages, establish our PORT number, creates express and middleware, creates routes and syncs database & logs message in terminal on successful connection to server}
 
 ## Contributing
 
