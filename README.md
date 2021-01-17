@@ -5,13 +5,13 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Explaination](#explaination)
+- [Explanation](#explanation)
 - [Contributing](#contributing)
 - [Questions](#questions)
 
 ## Description
 
-This assignment was to walk through a code base that was provided to me, and write a tutorial explaining every file and its purpose.
+The assignment was to walk through a code base that was provided to me and write a tutorial explaining every file and its purpose.
 
 ## Installation
 
@@ -33,7 +33,7 @@ I WANT to make sure that my username and password stored
 
 SO THAT I don't need to worry about using a website
 
-## Explaination
+## Explanation
 
 Develop
 
